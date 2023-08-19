@@ -134,6 +134,10 @@ p, h1, h2, h3, h4, h5, h6{
     transition: color 200ms ease-in;
 }
 
+.mob-menu-current{
+    color: #FD9222;
+}
+
 .mob-menu-link:hover,
 .mob-menu-link:focus{
     color: #fd9222;
