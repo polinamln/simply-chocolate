@@ -449,13 +449,68 @@
                     </div>
                 </section>
                 <!-- &-------------------------7-------------------------- -->
+                <section class="seventh-section">
+                    <div class="container">
+                        <h2 class="seventh-section-title">
+                            <span class="seventh-title-accent">chocolate</span> is loved
+                        </h2>
+
+                        <ul class="list seventh-section-list">
+                            <li>
+                                <div class="seventh-section-box">
+                                    <h3 class="seventh-box-title">Victoria Dobrzhanska</h3>
+                                    <p class="seventh-box-p">I love this chocolate bar. Perfect combination of light
+                                        crispy wafer, covered in a thin layer chocolate.</p>
+                                    <img class="seventh-section-img" src="./images/Ellipse1.png" width="80">
+
+                                </div>
+
+
+                                <button type="submit" class="seventh-section-btn" data-modal-open>Leave a
+                                    review</button>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </section>
+
+
 
     </main>
 
 
-    <footer></footer>
+    <footer>
+        <!-- &-------------------------footer-------------------------- -->
+    </footer>
+
+    <div class="backdrop" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-btn" data-modal-close>
+                <svg class="modal-btn-icon" width="24" height="24">
+                    <use href="./images/symbols.svg#icon-x"></use>
+                </svg>
+            </button>
+
+            <h2 class="modal-title">leave a review
+                about <span class="seventh-title-accent">our chocolate</span></h2>
+
+            <ul class="list modal-items">
+                <li class="modal-field">
+                    <label class="madal-label" for="user-name">Name</label>
+                    <div class="modal-input-wrap">
+                        <input class="madal-input" type="text" name="user-name" id="user-name">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
 
     <script src="./mob-menu.js"></script>
+    <script src="./modal.js"></script>
 </body>
 
 </html>

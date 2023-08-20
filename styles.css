@@ -755,3 +755,160 @@ color: #111;
     position: relative;
     overflow: hidden;
 }
+
+/* ~------------------7----------------------- */
+
+.seventh-section{
+    padding: 80px 0;
+}
+
+.seventh-section-title{
+color: #111;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 74px;
+
+}
+
+.seventh-title-accent {
+    color: var(--color-orange);
+}
+
+.seventh-section-box{
+    padding: 56px 18px 42px;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    box-shadow: 0px 9.049315452575684px 100px 0px rgba(17, 17, 17, 0.03);
+
+    max-width: 335px;
+    width: 100%;
+    height: 200px;
+
+    margin: 0 auto;
+
+    position: relative;
+
+    /* ! */
+    margin-bottom: 32px;
+}
+
+.seventh-section-img{
+position: absolute;
+top: -40px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.seventh-box-title{
+    color: #111;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3;
+
+    margin-bottom: 24px;
+
+    text-align: center;
+}
+
+.seventh-box-p{
+    color: rgba(17, 17, 17, 0.70);
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+
+        text-align: center;
+}
+
+.seventh-section-btn{
+    padding: 12px 28px;
+    border-radius: 100px;
+    border: 1px solid #FD9222;
+    background-color: transparent;
+
+    width: 166px;
+    display: block;
+
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin: 0 auto;
+
+    cursor: pointer;
+}
+
+/* ~------------------modal----------------------- */
+
+.backdrop{
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 999;
+    background-color: rgba(46, 47, 66, 0.40);
+}
+.modal{
+    width: 311px;
+    height: 622px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    padding: 32px 24px;
+    
+
+    transform: translate(-50%, -50%);
+
+    background-color: var(--color-white);
+    border-radius: 15px;
+}
+
+.modal-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+.modal-btn-icon{
+    stroke: #111;
+}
+
+.modal-title{
+    color: #111;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: uppercase;
+
+    margin-bottom: 24px;
+
+    text-align: start;
+}
+
+/* ~------------------footer----------------------- */
